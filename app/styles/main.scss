@@ -90,9 +90,11 @@ article{
     height: 94px;
     width: 50px;
     float: right;
+    margin: 0;
+    border-radius: 0;
     .arrow_fund{
-      margin-top: 1.5rem;
-      margin-left: 0.80rem;
+      margin-top: 1rem;
+      margin-left: 1.2rem;
       background: url("../images/arrow_right.png") no-repeat;
       width: 24px;
       height: 40px;
