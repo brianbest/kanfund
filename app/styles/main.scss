@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+//@import "../bower_components/foundation/scss/foundation.scss";
+//@import "settings.scss";
+
+
+//==================================
+//Functions
+//==================================
+
+//pixel to rem with fallback support
+//----------------------------------
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+//==================================
+
+//Color Pal
+
+$primary: #fff;
+$primaryRGB: 0,0,0;
+
+
+body {
+  background: #383735;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #333;
+}
+
+h1,h2{
+  color: #F6FFEA;
+
+}
+h1{
+  @include fontSize(40px);
+  margin-bottom:0;
+}
+h2{
+  @include fontSize(25px);
+  margin-top:0;
+}
+
+header{
+  background: url('../images/pattern/agsquare_@2X.png');
+  min-height: calculateRem(250px);
+  width: 100%;
+
+  .colorOverlay{
+    background: rgba(39,47,86,0.6);
+    width: 100%;
+    min-height: calculateRem(250px);
+  }
+
+  .title_holder{
+    padding-top: 3.5rem;
+    width: calculateRem(160px);
+    margin: 0 auto;
+    display: block;
+  }
+
+}
+article{
+  background-color: #DF9C27;
+  overflow: auto;
+  margin-bottom: 1.5rem;
+
+  img,.project_info,.project_fund{
+    display: inline-block;
+    float: left;
+  }
+  img{
+    width: 25%;
+    height: 100%;
+
+  }
+  .project_info{
+    margin-left:0.75rem;
+    margin-top:0.75rem;
+    h2,h3{ margin: 0;}
+  }
+  .project_fund{
+    background-color: #363E68;
+    height: 94px;
+    width: 50px;
+    float: right;
+    .arrow_fund{
+      margin-top: 1.5rem;
+      margin-left: 0.80rem;
+      background: url("../images/arrow_right.png") no-repeat;
+      width: 24px;
+      height: 40px;
+      opacity: 0.5;
+    }
+  }
+  &:after{clear:both;}
+}
