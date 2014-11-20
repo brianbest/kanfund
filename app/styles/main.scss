@@ -42,9 +42,16 @@ h1{
   @include fontSize(40px);
   margin-bottom:0;
 }
-h2{
+h2,core-dropdown-menu{
   @include fontSize(25px);
   margin-top:0;
+}
+
+core-dropdown-menu{
+  background-color: transparent;
+  margin-left: -0.75rem;
+  color: #F6FFEA;
+  font-weight: bold;
 }
 
 header{
@@ -136,11 +143,33 @@ article{
       height: 100%;
 
     }
+    .clear_after{
+      overflow: auto;
+      &:after{clear: both;}
+    }
+    .holder{
+      overflow: auto;
+      &:after{clear: both}
+      .project_info,.project_ask{
+        display: inline-block;
+        float: left;
+      }
+      .project_ask{
+        float: right;
+        margin-right: 1.7rem;
+        margin-top: 0.95rem;
+        h4{
+          margin-top: 0.25rem;
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
     .project_info,.project_dis{
       margin-left:0.75rem;
       margin-right:1.1rem;
       margin-top:0.75rem;
       h2,h3{ margin: 0;}
+      p{color:#000;}
     }
     .project_fund{
       background-color: #363E68;
@@ -169,3 +198,5 @@ article{
     &:after{clear:both;}
   }
 }
+
+
