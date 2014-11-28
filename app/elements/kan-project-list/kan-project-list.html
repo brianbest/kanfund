@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<polymer-element name="kan-project-list" >
+  <template>
+    <link rel="stylesheet" href="kan-project-list.css">
+    <template repeat="{{post in posts}}">
+      <article>
+        <img src="{{post.img}}">
+        <div class="project_info">
+          <h2>{{post.projectName}}</h2>
+          <h3>{{post.startName}}</h3>
+        </div>
+        <paper-button class="project_fund" recenteringTouch raised>
+          <a is="pushstate-anchor" href="/#/project"><div class="arrow_fund"></div></a>
+        </paper-button>
+      </article>
+    </template>
+
+  </template>
+  <script>
+    Polymer({
+      ready: function(){
+        console.log(this.posts+ "stuff");
+      },
+      posts :[
+        {img : '../../images/projects/u375014_sm.jpg', projectName : 'Logo Design', startName : "This Week In Tech"},
+        {img : '../../images/projects/u789228_sm.jpg', projectName : 'Travel fund', startName : "Tobuscus"},
+        {img : '../../images/projects/u375014_sm.jpg', projectName : 'Something Else', startName : "HumanPeoples"}
+      ]
+    });
+  </script>
+</polymer-element>

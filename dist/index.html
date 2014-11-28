@@ -1,1 +1,38 @@
-<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Polymer WebApp</title><meta name="description" content><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"><link rel="stylesheet" href="styles/main.css"><script src="bower_components/platform/platform.js"></script><link rel="import" href="elements/elements.vulcanized.html"></head><body unresolved fullbleed><header><div class="colorOverlay"><div class="title_holder"><h1>kan fund</h1><core-dropdown-menu label="cape breton" style="background-color: transparent"><core-dropdown class="dropdown"><core-selector><core-item label="Croissant">Croissant</core-item><core-item label="Donut">Croissant</core-item><core-item label="Financier">Croissant</core-item><core-item label="Madeleine">Croissant</core-item></core-selector></core-dropdown></core-dropdown-menu></div></div></header><article><img src="images/projects/u2647606_sm.jpg"><div class="project_info"><h2>project name</h2><h3>startup name</h3></div><paper-button class="project_fund" recenteringtouch raised><a href="/project.html"><div class="arrow_fund"></div></a></paper-button></article><article><img src="images/projects/u375014_sm.jpg"><div class="project_info"><h2>project name</h2><h3>startup name</h3></div><paper-button class="project_fund" recenteringtouch raised><a href="/project.html"><div class="arrow_fund"></div></a></paper-button></article><article><img src="images/projects/u789228_sm.jpg"><div class="project_info"><h2>project name</h2><h3>startup name</h3></div><paper-button class="project_fund" recenteringtouch raised><a href="/project.html"><div class="arrow_fund"></div></a></paper-button></article><script src="scripts/app.js"></script></body></html>
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Polymer WebApp</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild-->
+
+  <script src="bower_components/platform/platform.js"></script>
+  <link rel="import" href="bower_components/app-router/app-router.html">
+  <link rel="import" href="bower_components/core-animated-pages/core-animated-pages.html">
+  <!-- build:vulcanized elements/elements.vulcanized.html -->
+  <!-- endbuild-->
+  <link rel="import" href="elements/elements.html">
+</head>
+
+<body unresolved fullbleed>
+
+
+  <app-router core-animated-pages transitions="hero-transition cross-fade">
+    <!-- matches an exact path -->
+    <app-route path="/" import="elements/kan-home/kan-home.html"></app-route>
+    <app-route path="/project" import="elements/kan-project/kan-project.html"></app-route>
+  </app-router>
+
+<!-- build:js scripts/app.js -->
+  <script src="scripts/app.js"></script>
+  <!-- endbuild-->
+</body>
+
+</html>

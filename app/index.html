@@ -12,71 +12,25 @@
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild-->
-
+  <script  src="../../bower_components/webcomponentsjs/webcomponents.js"></script>
   <script src="bower_components/platform/platform.js"></script>
-
+  <link rel="import" href="bower_components/app-router/app-router.html">
+  <link rel="import" href="bower_components/core-animated-pages/core-animated-pages.html">
   <!-- build:vulcanized elements/elements.vulcanized.html -->
-  <link rel="import" href="elements/elements.html">
   <!-- endbuild-->
+  <!--<link rel="import" href="elements/elements.html">-->
 </head>
 
 <body unresolved fullbleed>
 
-  <header>
-    <div class="colorOverlay">
-      <div class="title_holder">
-        <h1>kan fund</h1>
 
-        <core-dropdown-menu label="cape breton" style="background-color: transparent">
-          <core-dropdown class="dropdown">
-            <core-selector>
-              <core-item label="Croissant">Croissant</core-item>
-              <core-item label="Donut">Croissant</core-item>
-              <core-item label="Financier">Croissant</core-item>
-              <core-item label="Madeleine">Croissant</core-item>
-            </core-selector>
-          </core-dropdown>
-        </core-dropdown-menu>
+  <app-router core-animated-pages transitions=" cross-fade">
+    <!-- matches an exact path -->
+    <app-route path="/" import="elements/kan-home/kan-home.html"></app-route>
+    <app-route path="/project" import="elements/kan-project/kan-project.html"></app-route>
+  </app-router>
 
-      </div>
-    </div>
-  </header>
-
-  <article>
-    <img src="images/projects/u2647606_sm.jpg">
-    <div class="project_info">
-      <h2>project name</h2>
-      <h3>startup name</h3>
-    </div>
-    <paper-button class="project_fund" recenteringTouch raised>
-      <a href="/project.html"><div class="arrow_fund"></div></a>
-    </paper-button>
-  </article>
-
-  <article>
-    <img src="images/projects/u375014_sm.jpg">
-    <div class="project_info">
-      <h2>project name</h2>
-      <h3>startup name</h3>
-    </div>
-    <paper-button class="project_fund" recenteringTouch raised>
-      <a href="/project.html"><div class="arrow_fund"></div></a>
-    </paper-button>
-  </article>
-
-  <article>
-    <img src="images/projects/u789228_sm.jpg">
-    <div class="project_info">
-      <h2>project name</h2>
-      <h3>startup name</h3>
-    </div>
-    <paper-button class="project_fund" recenteringTouch raised>
-      <a href="/project.html"><div class="arrow_fund"></div></a>
-    </paper-button>
-  </article>
-
-
-  <!-- build:js scripts/app.js -->
+<!-- build:js scripts/app.js -->
   <script src="scripts/app.js"></script>
   <!-- endbuild-->
 </body>
