@@ -1,0 +1,39 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<!--<link rel="import" href="../elements.html">-->
+<link rel="import" href="../kan-project-list/kan-project-list.html">
+
+
+<link href="../../bower_components/core-collapse/core-collapse.html" rel="import">
+<link href="../../bower_components/core-menu/core-menu.html" rel="import">
+<link href="../../bower_components/paper-dropdown/paper-dropdown.html" rel="import">
+<link href="../../bower_components/paper-item/paper-item.html" rel="import">
+
+<link href="../../bower_components/paper-dropdown-menu/paper-dropdown-menu.html" rel="import">
+
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/core-icon/core-icon.html">
+
+<polymer-element name="kan-login" noscript>
+  <template>
+    <link rel="stylesheet" href="kan-login.css">
+    <div class="project">
+      <header>
+        <div class="colorOverlay">
+          <div class="title_holder">
+            <paper-button class="back_button" style="width: 50px;"><a  href="/"><core-icon icon="chevron-left" style="color:#fff;height: 32px;width: 32px;"></core-icon></a></paper-button>
+            <h1>kan fund</h1>
+          </div>
+        </div>
+      </header>
+
+
+    <div class="login_area">
+      <input type="text" placeholder="Username"><br>
+      <input type="password" placeholder="Password"><br>
+      <paper-button  style="width: 100%;"><a  href="/" style="color:#fff; background-color:rgba(255,255,255,0.4);">Login</a></paper-button>
+    </div>
+    </div>
+  </template>
+</polymer-element>

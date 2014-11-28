@@ -12,13 +12,21 @@
 
 <link href="../../bower_components/paper-dropdown-menu/paper-dropdown-menu.html" rel="import">
 
+  <link rel="import" href="../../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../../bower_components/core-icon/core-icon.html">
 
 <polymer-element name="kan-home" noscript>
   <template>
 
     <link rel="stylesheet" href="kan-home.css">
     <header>
+
       <div class="colorOverlay">
+        <div class="login_holder">
+          <div class="login_user">
+            <a is="pushstate-anchor" href="/#/login"><paper-button><span style="font-weight: bolder; color: #fff;">login</span></paper-button></a>
+          </div>
+        </div>
         <div class="title_holder">
           <h1>kan fund</h1>
 

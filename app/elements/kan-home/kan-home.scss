@@ -65,8 +65,16 @@ header{
     min-height: calculateRem(250px);
   }
 
+  .login_holder{
+    overflow: auto;
+    .login_user{
+      float: right;
+    }
+    &:after{clear:both;}
+  }
+
   .title_holder{
-    padding-top: 3.5rem;
+    padding-top: 1.5rem;
     width: calculateRem(160px);
     margin: 0 auto;
     display: block;
