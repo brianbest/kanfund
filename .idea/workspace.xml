@@ -1,7 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7893b70-e76b-46aa-be7b-b688505929b9" name="Default" comment="" />
+    <list default="true" id="b7893b70-e76b-46aa-be7b-b688505929b9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/tests/html/core-collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/tests/js/htmltests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/tests/runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/tests/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown-overlay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/tests/html/core-selection-basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/tests/html/core-selection-multi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/tests/js/htmltests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/tests/runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/tests/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/demo2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/pulse-ink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/paper-item.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/raw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/tests/html/paper-ripple-position.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/tests/js/htmltests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/tests/runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/tests/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/font-roboto/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/font-roboto/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/.gitignore" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="$PROJECT_DIR$/dist/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/README.md" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/activate-event.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/activate-event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/av-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/av-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/basic.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/build.log" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/build.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/communication-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/communication-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/core-animation.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/core-animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/core-collapse.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/core-collapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/core-component-page.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/core-component-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/core-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/core-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/core-iconset-svg.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/core-iconset-svg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-basic.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay-layer.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay-layer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning-margin.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning-margin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-scroll.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-scroll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/core-selector.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/core-selector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-css.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-overlay.css" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-overlay.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/device-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/device-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/editor-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/editor-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/elements.html" afterPath="$PROJECT_DIR$/dist/elements/elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/hardware-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/hardware-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/home.html" afterPath="$PROJECT_DIR$/dist/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/image-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/image-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.html" afterPath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.css.map" afterPath="$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.css.map" afterPath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.css" afterPath="$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.css" afterPath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.html" afterPath="$PROJECT_DIR$/dist/elements/kan-project-list/kan-project-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/maps-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/maps-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/multi.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/multi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/next-previous.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/next-previous.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/notification-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/notification-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button-base.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button-base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/paper-icon-button.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/paper-icon-button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/paper-item.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/paper-item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/paper-ripple.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/paper-ripple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.css" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.html" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.js" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/project.html" afterPath="$PROJECT_DIR$/dist/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/selected-attr-prop.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/selected-attr-prop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/social-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/social-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/template-repeat.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/template-repeat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/web-animations.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/web-animations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="kanfund.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +256,7 @@
       <file leaf-file-name="kan-project-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="787">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="70" />
               <folding />
             </state>
@@ -146,7 +310,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -324,6 +488,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -372,6 +537,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b7893b70-e76b-46aa-be7b-b688505929b9" name="Default" comment="" />
@@ -383,11 +551,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17094861" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39624506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
