@@ -9,3 +9,10 @@
 // wrap document so it plays nice with other libraries
 // http://www.polymer-project.org/platform/shadow-dom.html#wrappers
 })(wrap(document));
+
+document.addEventListener("scroll", makeDetails());
+
+function makeDetails(){
+
+  document.getElementById('pro_details').style.display = 'block';
+}

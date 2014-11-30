@@ -19,22 +19,31 @@
   font-size: calculateRem($size);
 }
 
+@mixin blackGrad(){
+  background: rgba(76,76,76,0);
+  background: -moz-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(89,89,89,0.17) 12%, rgba(102,102,102,0.28) 19%, rgba(71,71,71,0.35) 24%, rgba(44,44,44,0.46) 32%, rgba(0,0,0,0.55) 38%, rgba(17,17,17,0.65) 45%, rgba(17,17,17,0.9) 62%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,0)), color-stop(12%, rgba(89,89,89,0.17)), color-stop(19%, rgba(102,102,102,0.28)), color-stop(24%, rgba(71,71,71,0.35)), color-stop(32%, rgba(44,44,44,0.46)), color-stop(38%, rgba(0,0,0,0.55)), color-stop(45%, rgba(17,17,17,0.65)), color-stop(62%, rgba(17,17,17,0.9)));
+  background: -webkit-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(89,89,89,0.17) 12%, rgba(102,102,102,0.28) 19%, rgba(71,71,71,0.35) 24%, rgba(44,44,44,0.46) 32%, rgba(0,0,0,0.55) 38%, rgba(17,17,17,0.65) 45%, rgba(17,17,17,0.9) 62%);
+  background: -o-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(89,89,89,0.17) 12%, rgba(102,102,102,0.28) 19%, rgba(71,71,71,0.35) 24%, rgba(44,44,44,0.46) 32%, rgba(0,0,0,0.55) 38%, rgba(17,17,17,0.65) 45%, rgba(17,17,17,0.9) 62%);
+  background: -ms-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(89,89,89,0.17) 12%, rgba(102,102,102,0.28) 19%, rgba(71,71,71,0.35) 24%, rgba(44,44,44,0.46) 32%, rgba(0,0,0,0.55) 38%, rgba(17,17,17,0.65) 45%, rgba(17,17,17,0.9) 62%);
+  background: linear-gradient(to bottom, rgba(76,76,76,0) 0%, rgba(89,89,89,0.17) 12%, rgba(102,102,102,0.28) 19%, rgba(71,71,71,0.35) 24%, rgba(44,44,44,0.46) 32%, rgba(0,0,0,0.55) 38%, rgba(17,17,17,0.65) 45%, rgba(17,17,17,0.9) 62%);
+}
 //==================================
 
 //Color Pal
 
-$primary: #fff;
-$primaryRGB: 0,0,0;
+$orange: #DF9C27;
+$purple: #363E68;
 
 
 body {
-  background: #383735;
+  background: url(../images/pattern/footer_lodyas.png);
   font-family: "Lato", sans-serif;
-  font-weight: 100;
+  font-weight: bolder;
   color: #333;
 }
 
-h1,h2{
+h1,h2,h3{
   color: #F6FFEA;
 
 }
@@ -42,161 +51,89 @@ h1{
   @include fontSize(40px);
   margin-bottom:0;
 }
-h2,core-dropdown-menu{
+h2{
   @include fontSize(25px);
   margin-top:0;
 }
 
-core-dropdown-menu{
-  background-color: transparent;
-  margin-left: -0.75rem;
-  color: #F6FFEA;
-  font-weight: bold;
-}
 
 header{
   background: url('../images/pattern/agsquare_@2X.png');
-  min-height: calculateRem(250px);
+  min-height: calculateRem(50px);
   width: 100%;
-
-  .colorOverlay{
-    background: rgba(39,47,86,0.6);
-    width: 100%;
-    min-height: calculateRem(250px);
-  }
+  -webkit-box-shadow: 0px 14px 56px -23px rgba(255,255,255,0.9);
+  -moz-box-shadow: 0px 14px 56px -23px rgba(255,255,255,0.9);
+  box-shadow: 0px 14px 56px -23px rgba(255,255,255,0.9);
 
   .title_holder{
-    padding-top: 3.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
     width: calculateRem(160px);
     margin: 0 auto;
     display: block;
-  }
 
-}
-article{
-  background-color: #DF9C27;
-  overflow: auto;
-  margin-bottom: 1.5rem;
-
-  img,.project_info,.project_fund{
-    display: inline-block;
-    float: left;
-  }
-  img{
-    width: 25%;
-    height: 100%;
-
-  }
-  .project_info{
-    margin-left:0.75rem;
-    margin-top:0.75rem;
-    h2,h3{ margin: 0;}
-  }
-  .project_fund{
-    background-color: #363E68;
-    height: 90px;
-    width: 40px;
-    float: right;
-    margin: 0;
-    border-radius: 0;
-    .arrow_fund{
-      margin-top: 1rem;
-      margin-left: 1.2rem;
-      background: url("../images/arrow_right.png") no-repeat;
-      width: 24px;
-      height: 40px;
-      opacity: 0.5;
+    h1,h2{
+      color:$purple;
+      margin-top: 0;
     }
   }
-  &:after{clear:both;}
+
 }
 
 .project{
-  header{
-    min-height: calculateRem(50px);
-    .colorOverlay{
-      min-height: calculateRem(50px);
-    }
-    .title_holder {
-      overflow: auto;
-      padding-top: 0.5rem;
-      width: 100%;
-      .back_button{
-        width: 50px;
-        min-width: 50px;
-        margin-top: 0;
-        display: inline-block;
-        float: left;
-      }
-      h1{margin-top:0.25rem; display: inline-block; float: left; line-height: 35px;}
-    }
+
+  .pro_img {
+    background: url(../images/projects/hire_dev.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: blur(2px);
+    height: 38rem; //swap this out for dynamic height sizing
   }
 
-  article{
 
-    img,.project_info,.project_fund{
-      display: inline-block;
-      float: none;
-    }
-    img{
-      width: 25%;
-      height: 100%;
+  .pro_info{
+    position: absolute;
+    bottom:0rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 6rem;
+    @include blackGrad();
+
+    h1,h2,h3{
+      margin-top: 0;
+      margin-bottom:0;
+      text-align: center;
 
     }
-    .clear_after{
-      overflow: auto;
-      &:after{clear: both;}
+    .pro_title{
+      padding: 2rem;
+      float: left;
     }
-    .holder{
-      overflow: auto;
-      &:after{clear: both}
-      .project_info,.project_ask{
-        display: inline-block;
-        float: left;
-      }
-      .project_ask{
-        float: right;
-        margin-right: 1.7rem;
-        margin-top: 0.95rem;
-        h4{
-          margin-top: 0.25rem;
-          margin-bottom: 0.25rem;
-        }
-      }
-    }
-    .project_info,.project_dis{
-      margin-left:0.75rem;
-      margin-right:1.1rem;
-      margin-top:0.75rem;
-      h2,h3{ margin: 0;}
-      p{color:#000;}
-    }
-    .project_fund{
-      background-color: #363E68;
-      height: 90px;
-      width: 12rem;
+    .pro_stats{
+      padding: 2rem;
       float: right;
-      margin: 0;
-      border-radius: 0;
-      h2{
-        display: inline-block;
-        float: left;
-        text-transform: lowercase;
-        margin-top: 1rem;
-        margin-left: 1rem;
+    }
+
+    .pro_scrollDown{
+      &:before{
+        clear: both;
       }
-      .arrow_fund{
-        display: inline-block;
-        margin-top: 1rem;
-        margin-left: 1.2rem;
-        background: url("../images/arrow_right.png") no-repeat;
-        width: 24px;
-        height: 40px;
-        opacity: 0.5;
+      width: 100%;
+      i{
+        width: 23px;
+        margin: 0 auto;
+        display: block;
+
       }
     }
-    &:after{clear:both;}
+    &:after{clear: both;}
   }
+
 }
 
-
+.details_holders{
+  display: none;
+}

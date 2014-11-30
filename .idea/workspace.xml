@@ -2,17 +2,559 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7893b70-e76b-46aa-be7b-b688505929b9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown-base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/core-focusable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/core-focusable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-focusable/polymer-mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/test/multi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/test/a11y.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/paper-dropdown-transition.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/paper-dropdown-transition.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-dropdown/paper-dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/test/a11y.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/test/position.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.testr.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.travis-run.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/run-lint.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/run-tests-android.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/run-tests.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/perf/balls-add-compositing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/perf/balls-replace-compositing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/perf/perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/perf/updating-inline-style-during-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/test-generator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/test-results-post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/test-runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-box-shadow-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-box-shadow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-calc-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-calc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-change-playback-rate-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-circular-path-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-circular-path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-color-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-color-names-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-color-names.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-color.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-composite-transforms-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-composite-transforms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-compositor-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-compositor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-delay-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-delay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-element-animate-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-element-animate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-fill-values-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-fill-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-font-weight-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-font-weight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-initial-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-initial.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style-fallback-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style-fallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style-methods-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style-methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-inline-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-integer-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-integer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iteration-start-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iteration-start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-alternate-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-alternate-holes-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-alternate-holes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-alternate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-basic-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-fill-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-iterations-fill.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-keyframe-creation-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-keyframe-creation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-keyframe-easing-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-keyframe-easing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-length-units-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-length-units.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-matrix-transforms-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-matrix-transforms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-motion-path-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-motion-path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-non-numeric-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-non-numeric.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-parent-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-parent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-partial-keyframes-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-partial-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-path-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-pause-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-pause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-perspective-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-perspective-origin-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-perspective-origin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-perspective.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-playback-rate-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-playback-rate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-position-list-type-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-rectangle-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-rectangle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-reparent-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-reparent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-seq-speed-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-seq-speed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-shorthand-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-shorthand.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-start-time-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-start-time-iterations-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-start-time-iterations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-start-time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-anim-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-anim.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-circle-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-circle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-color-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-svg-color.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-text-shadow-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-text-shadow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-timing-functions-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-timing-functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-to-animation-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-to-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-3d-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-3d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-functions-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-origin-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-origin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-primitives-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-primitives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-units-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-transform-units.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-visibility-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-visibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-wrapping-bug-checks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/auto-test-wrapping-bug.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/disabled-auto-test-change-playback-rate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/disabled-auto-test-position-list-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/disabled-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/disabled-test-compositing-order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/impl-test-deprecation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/impl-test-from-css-value.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/impl-test-paced-timing-function.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/impl-test-totimelinetime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/impl-unit-test-position-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/manual-test-add-player-onend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/manual-test-preset-timings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/manual-test-step.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/small.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/small.webm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-bounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-document-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-dynamic-load.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-fill-auto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-getcurrent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-keyframe-animation-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-keyframe-composite-operation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-null-target.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-pause-for-testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-player-addeventlistener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-player-cleanup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-player-finish-event.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-player-sort.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-player.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-pseudo-element-reference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-repeated-pause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-restart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-reversed-player-active-phase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-rotation-not-reversed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/test-update-state.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-clone.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-delay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-dom-operations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-duration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-get-siblings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-modify-timing-params.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-null-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-set-parent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-testharness-failure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-testharness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testcases/unit-test-unpause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/testharness_timing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/test/update-testcases.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/basic-animations/basic-animation-exercise-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/basic-animations/basic-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/iframe-contents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/page-load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/parallel/parallel-exercise-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/parallel/parallel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/sample-tutorial.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/try-it-yourself.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/tutorial-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/tutorial/tutorial-testing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/web-animations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/.travis-setup.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/animation-constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/animation-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/apply-preserving-inline-style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/box-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/color-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/deprecation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/dimension-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/effect-callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/element-animatable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/font-weight-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/group-constructors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/handler-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/matrix-decomposition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/matrix-interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/maxifill-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/normalize-keyframes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/number-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/position-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/property-interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/shadow-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/shape-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/tick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/timing-utilities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/transform-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/src/visibility-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/target-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/target-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/templates/boilerplate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/templates/runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/templates/web-animations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/templates/web-animations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/2-keyframes-with-offsets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/3-keyframes-with-offsets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/add-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/eased-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/get-animation-players.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/get-css-players.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/insufficient-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/background-color-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/background-image-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/background-position-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/background-position-origin-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/background-size-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-color-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-image-outset-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-image-slice-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-image-source-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-image-width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-radius-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-spacing-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/border-width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/bottom-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/box-shadow-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/calc-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/clip-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/color-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/filter-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/flex-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/font-size-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/font-weight-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/height-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/left-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/letter-spacing-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/line-height-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/list-style-image-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/margin-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/max-height-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/max-width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/min-height-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/min-width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/object-position-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/opacity-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/orphans-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/outline-color-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/outline-offset-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/outline-width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/padding-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/perspective-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/perspective-origin-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/resources/interpolation-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/right-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/shape-image-threshold.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/shape-margin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/shape-outside.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/text-decoration-color-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/text-indent-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/text-shadow-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/top-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-matrix-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-none-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-origin-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-perspective-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-rotate-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-scale-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-skew-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/transform-translate-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/vertical-align-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/viewport-unit-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/visibility-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/widows-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/width-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/word-spacing-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/z-index-interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/interpolation/zoom-iterpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/keyframe-properties.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/keyframes-with-null-offsets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/out-of-order-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/blue-100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/green-100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/green-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/keyframes-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/stripes-100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/resources/stripes-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/same-offset-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/simple-keyframes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/testharness/testharness.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/testharness/testharness.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/blink/testharness/testharnessreport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/animation-constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/animation-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/apply-preserving-inline-style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/box-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/color-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/dimension-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/effect-callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/group-constructors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/group-player-finish-event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/group-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/matrix-interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/number-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/player-finish-event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/property-interpolation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/tick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/timing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/js/transform-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/karma-config-ci.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/karma-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher100.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher200.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher300.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher500.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher600.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher800.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/resources/WebKitWeightWatcher900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/runner-web-animations-next-lite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/runner-web-animations-next.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/runner-web-animations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/testharness-runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/testharness-runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/test/testharness-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations-next-lite.dev.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations-next-lite.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations-next.dev.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations-next.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations.dev.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-next/web-animations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/CustomElements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/CustomElements.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/HTMLImports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/HTMLImports.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/ShadowDOM.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/ShadowDOM.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/webcomponents-lite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/webcomponents-lite.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/webcomponents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bower_components/webcomponentsjs/webcomponents.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/app-router/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/app-router/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/font-roboto/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/font-roboto/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/.gitignore" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.gitignore" afterPath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.travis-setup.sh" afterPath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.travis-setup.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.travis.yml" afterPath="$PROJECT_DIR$/dist/bower_components/web-animations-js/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/README.md" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/web-animations-js/README.md" afterPath="$PROJECT_DIR$/dist/bower_components/web-animations-js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/activate-event.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/activate-event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/av-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/av-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/basic.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/bower.json" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/build.log" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/build.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/communication-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/communication-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/core-animation.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/core-animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/core-collapse.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/core-collapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/core-component-page.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/core-component-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/core-dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/core-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/core-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/core-iconset-svg.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/core-iconset-svg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-basic.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay-layer.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay-layer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning-margin.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning-margin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-positioning.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-scroll.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/tests/html/core-overlay-scroll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/core-overlay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/core-selector.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/core-selector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-css.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-overlay.css" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition-overlay.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/core-transition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/demo.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/device-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/device-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/editor-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/editor-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/hardware-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/hardware-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/image-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/image-icons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-home/kan-home.css.map" afterPath="$PROJECT_DIR$/app/elements/kan-home/kan-home.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.css.map" afterPath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-home/kan-home.css" afterPath="$PROJECT_DIR$/app/elements/kan-home/kan-home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.css" afterPath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-home/kan-home.html" afterPath="$PROJECT_DIR$/app/elements/kan-home/kan-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.html" afterPath="$PROJECT_DIR$/dist/elements/kan-home/kan-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-home/kan-home.scss" afterPath="$PROJECT_DIR$/app/elements/kan-home/kan-home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/kan-project/kan-project.html" afterPath="$PROJECT_DIR$/app/elements/kan-project/kan-project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/elements/kan-project/kan-project.html" afterPath="$PROJECT_DIR$/dist/elements/kan-project/kan-project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-collapse/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-collapse/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-component-page/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-component-page/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-dropdown/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-dropdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icon-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icon-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-iconset-svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-meta/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-meta/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-overlay/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-overlay/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selection/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-transition/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-transition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/index.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/maps-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/maps-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/metadata.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/metadata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/multi.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/multi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/next-previous.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/next-previous.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/notification-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/notification-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button-base.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button-base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-button/paper-button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/paper-icon-button.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-icon-button/paper-icon-button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-item/paper-item.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-item/paper-item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-ripple/paper-ripple.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-ripple/paper-ripple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.css" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.html" afterPath="$PROJECT_DIR$/dist/bower_components/paper-shadow/paper-shadow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.html" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.js" afterPath="$PROJECT_DIR$/dist/bower_components/polymer/polymer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/selected-attr-prop.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/selected-attr-prop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-icons/social-icons.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-icons/social-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-selector/test/template-repeat.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-selector/test/template-repeat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bower_components/core-animation/web-animations.html" afterPath="$PROJECT_DIR$/dist/bower_components/core-animation/web-animations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kanfund.iws" />
@@ -37,89 +579,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.541666" vertical-offset="101" max-vertical-offset="3120">
-              <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="675">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state vertical-scroll-proportion="-13.125" vertical-offset="540" max-vertical-offset="1365">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="26" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kan-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="810">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#paper-button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kan-login.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7316637" vertical-offset="101" max-vertical-offset="675">
-              <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
-              <folding>
-                <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kan-login.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.916666" vertical-offset="1616" max-vertical-offset="2280">
-              <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="525">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kan-project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="750">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kan-project-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.html">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
-              <caret line="13" column="53" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="53" />
+            <state vertical-scroll-proportion="-10.875" vertical-offset="1719" max-vertical-offset="2280">
+              <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -128,8 +624,18 @@
       <file leaf-file-name="kan-home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="3210">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state vertical-scroll-proportion="-15.0" vertical-offset="1185" max-vertical-offset="3210">
+              <caret line="103" column="29" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kan-project.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="780">
+              <caret line="15" column="159" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="159" />
               <folding />
             </state>
           </provider>
@@ -139,6 +645,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+      </list>
+    </option>
   </component>
   <component name="JsGruntFileManager">
     <gruntfiles>
@@ -152,8 +668,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +694,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +740,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,10 +777,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kan-project-list" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,52 +802,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanfund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanfund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kan-login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanfund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanfund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kan-home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,6 +814,7 @@
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -389,16 +876,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39624506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33533654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21353066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -434,6 +921,121 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1616" max-vertical-offset="2280">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3210">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="3120">
+          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="675">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="405">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="810">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#paper-button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1616" max-vertical-offset="2280">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3210">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="3120">
@@ -446,7 +1048,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,9 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="870">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#core-dropdown-menu#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,10 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="615">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="1245">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="390">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +1125,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1635">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="225">
           <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="615">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69504446" vertical-offset="458" max-vertical-offset="1245">
           <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,9 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32401526" vertical-offset="75" max-vertical-offset="885">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#core-dropdown-menu#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,10 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="660">
           <caret line="32" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3090">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,15 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="4920">
           <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="811">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,73 +1233,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.041666" vertical-offset="533" max-vertical-offset="1320">
           <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="675">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/kan-project-list/kan-project-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.541666" vertical-offset="101" max-vertical-offset="3120">
-          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="810">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#paper-button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="3210">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.916666" vertical-offset="1616" max-vertical-offset="2280">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1616" max-vertical-offset="2280">
           <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
           <folding />
         </state>
@@ -738,13 +1254,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/kan-login/kan-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7316637" vertical-offset="101" max-vertical-offset="675">
-          <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="690">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-icon#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#header#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#paper-button#0;n#div#0;n#div#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2746479" vertical-offset="0" max-vertical-offset="710">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6574344" vertical-offset="89" max-vertical-offset="810">
+          <caret line="36" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#paper-button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-home/kan-home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="1185" max-vertical-offset="3210">
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/kan-project/kan-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="780">
+          <caret line="15" column="159" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.875" vertical-offset="1719" max-vertical-offset="2280">
+          <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="540" max-vertical-offset="1365">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="525">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
