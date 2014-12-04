@@ -6,17 +6,40 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+app.use(express.bodyParser());
+
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/app/index.html');
+
+
+
+
+});
+
+app.post('/payus', function(req,res){
+  var stripe = require("stripe")("sk_test_Fe7hexNKtkDQEjv9AZ7VT2xC");
+  console.log(req.body.stripeToken);
+// (Assuming you're using express - expressjs.com)
+// Get the credit card details submitted by the form
+//  var stripeToken = req.body.stripeToken;
+//
+//
+//  var charge = stripe.charges.create({
+//    amount: 1000, // amount in cents, again
+//    currency: "cad",
+//    card: stripeToken,
+//    description: "payinguser@example.com"
+//  }, function(err, charge) {
+//    if (err && err.type === 'StripeCardError') {
+//      // The card has been declined
+//    }
+//  });
 });
 
 app.use(express.static(__dirname + '/app'));
 
-//app.use("/styles", express.static(__dirname + '/app/styles'));
-//app.use("/scripts", express.static(__dirname + '/app/scripts/'));
-//app.use("/elements", express.static(__dirname + '/app/elements/'));
-//app.use("/images", express.static(__dirname + '/app/images/'));
-//app.use("/bower_components", express.static(__dirname + '/app/bower_components/'));
+
+
 
 http.listen(3000, function(){
   console.log('listening on *:3000');
