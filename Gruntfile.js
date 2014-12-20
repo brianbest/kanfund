@@ -62,6 +62,21 @@ module.exports = function (grunt) {
         tasks: ['sass:server', 'autoprefixer:server']
       }
     },
+    jade: {
+      compile: {
+        options: {
+          client: false,
+          pretty: true
+        },
+        files: [ {
+          cwd: "app/templates",
+          src: "**/*.jade",
+          dest: "app/",
+          expand: true,
+          ext: ".html"
+        } ]
+      }
+    },
     // Compiles Sass to CSS and generates necessary files if requested
     sass: {
       options: {

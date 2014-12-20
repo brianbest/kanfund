@@ -1,1 +1,1 @@
-!function(a){"use strict";a.addEventListener("polymer-ready",function(){console.log("Polymer is ready to rock!")})}(wrap(document));
+function makeDetails(){document.getElementById("pro_details").style.display="block"}!function(a){"use strict";a.addEventListener("polymer-ready",function(){console.log("Polymer is ready to rock!")})}(wrap(document)),document.addEventListener("scroll",makeDetails());

@@ -34,7 +34,7 @@
 
 $orange: #DF9C27;
 $purple: #363E68;
-
+$white: #F6FFEA;
 
 body {
   background: url(../images/pattern/footer_lodyas.png);
@@ -59,7 +59,7 @@ h2{
 
 header{
   background: url('../images/pattern/agsquare_@2X.png');
-  min-height: calculateRem(50px);
+  min-height: 12vh;
   width: 100%;
   -webkit-box-shadow: 0px 14px 56px -23px rgba(255,255,255,0.9);
   -moz-box-shadow: 0px 14px 56px -23px rgba(255,255,255,0.9);
@@ -89,13 +89,14 @@ header{
     -o-background-size: cover;
     background-size: cover;
     filter: blur(2px);
-    height: 38rem; //swap this out for dynamic height sizing
+    height: 88vh; //swap this out for dynamic height sizing
   }
 
 
   .pro_info{
     position: absolute;
-    bottom:0rem;
+    bottom: -3rem;
+    padding-bottom: 3rem;
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -136,4 +137,22 @@ header{
 
 .details_holders{
   display: none;
+}
+.detail_holder{
+  padding: 1rem;
+  overflow: auto;
+  .pro_title,.pro_stats{
+    float: left;
+  }
+  .pro_stats{
+    h1{}
+  }
+  .detailTxt{
+    clear: both;
+  }
+}
+
+.detailTxt{
+  padding-bottom: 2.5rem;
+  p{color:$white;}
 }
