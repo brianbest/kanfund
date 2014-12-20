@@ -9,11 +9,17 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose/');
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
 
 
 //  ======================================================================
 //  App Configuration
 //  ======================================================================
+
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use(express.static(__dirname + '/app')); // Folder for files
 app.use( bodyParser.json() );                // to support JSON-encoded bodies
@@ -23,12 +29,83 @@ app.use(bodyParser.urlencoded({              // to support URL-encoded bodies
 app.set('views', __dirname +'/app/views/');  // Set where the views are located
 app.set('view engine', 'jade');              // Set our default template engine to "jade"
 
+
+//  ======================================================================
+//  Mongo Config
+//  ======================================================================
+
+mongoose.connect('mongodb://brianbest:thisisatest1@dogen.mongohq.com:10032/rally_point');
+
+var Schema = mongoose.Schema;
+var UserDetail = new Schema({
+  username: String,
+  password: String
+}, {
+  collection: 'kf_users'
+});
+var UserDetails = mongoose.model('kf_users', UserDetail);
+
+
+//  ======================================================================
+//  Passport Info
+//  ======================================================================
+
+passport.serializeUser(function(user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+  done(null, user);
+});
+
+passport.use(new LocalStrategy(function(username, password, done) {
+  process.nextTick(function() {
+    UserDetails.findOne({
+      'username': username
+    }, function(err, user) {
+      if (err) {
+        return done(err);
+      }
+
+      if (!user) {
+        return done(null, false);
+      }
+
+      if (user.password != password) {
+        return done(null, false);
+      }
+
+      return done(null, user);
+    });
+  });
+}));
+
+var isAuthenticated = function (req, res, next) {
+  if (req.isAuthenticated())
+    return next();
+  res.redirect('/');
+};
+
 //  ======================================================================
 //  GET Requests
 //  ======================================================================
-app.get('/', function(req, res){
-  //res.sendFile(__dirname + '/app/index.html');
+app.get('/',isAuthenticated, function(req, res){
   res.render('index');
+});
+
+app.get('/signin',function(req,res){
+  res.render('/signin');
+});
+
+app.get('/login',function(req,res){
+  passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/loginFailure'
+  })
+});
+
+app.get('/loginFailure',function(req,res){
+  res.redirect('/login');
 });
 
 
@@ -57,6 +134,9 @@ app.post('/payus', function(req,res){
     }
   });
 });
+
+
+
 
 //  ======================================================================
 //  HTTP Server
