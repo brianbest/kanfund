@@ -83,18 +83,18 @@ passport.use(new LocalStrategy(function(username, password, done) {
 var isAuthenticated = function (req, res, next) {
   if (req.isAuthenticated())
     return next();
-  res.redirect('/');
+  res.redirect('/signin');
 };
 
 //  ======================================================================
 //  GET Requests
 //  ======================================================================
-app.get('/',isAuthenticated, function(req, res){
+app.get('/', function(req, res){
   res.render('index');
 });
 
 app.get('/signin',function(req,res){
-  res.render('/signin');
+  res.render('login');
 });
 
 app.get('/login',function(req,res){
