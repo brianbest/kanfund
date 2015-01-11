@@ -58,6 +58,7 @@ h2{
 
 
 header{
+  z-index:9999;
   position: fixed;
   background: url('../images/pattern/agsquare_@2X.png');
   min-height: 12vh;
@@ -94,6 +95,8 @@ header{
   overflow: auto;
   border-right: 1px solid #fff;
   &:after{clear:both;}
+
+
   .pro_img {
     background: url(../images/projects/hire_dev.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -102,6 +105,11 @@ header{
     background-size: cover;
     filter: blur(2px);
     height: 88vh; //swap this out for dynamic height sizing
+  }
+  .second{
+    background: url(../images/projects/music_equip.jpg) no-repeat center center fixed;
+    background-size: 215%;
+
   }
 
 
@@ -122,11 +130,11 @@ header{
 
     }
     .pro_title{
-      padding: 2rem;
+      padding: 6%;
       float: left;
     }
     .pro_stats{
-      padding: 2rem;
+      padding: 6%;
       float: right;
     }
 
@@ -145,10 +153,12 @@ header{
     &:after{clear: both;}
   }
 
+
 }
 
 .details_holders{
   display: none;
+  margin-top: 6rem;
 }
 .detail_holder{
   padding: 1rem;
