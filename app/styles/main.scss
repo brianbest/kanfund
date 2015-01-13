@@ -84,7 +84,7 @@ header{
 
 .projectHolder{
   overflow-x: scroll;
-  width: 201vw;
+  width: 301vw;
 }
 
 .project{
@@ -111,6 +111,11 @@ header{
     background-size: 215%;
 
   }
+  .third{
+    background: url(../images/projects/server_get.jpg) no-repeat center center fixed;
+    background-size: 215%;
+  }
+
 
 
   .pro_info{

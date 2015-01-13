@@ -84,13 +84,17 @@ var isAuthenticated = function (req, res, next) {
   if (req.isAuthenticated())
     return next();
   res.redirect('/signin');
-};
+};//
 
 //  ======================================================================
 //  GET Requests
 //  ======================================================================
 app.get('/', function(req, res){
   res.render('index');
+
+
+
+
 });
 
 app.get('/signin',function(req,res){

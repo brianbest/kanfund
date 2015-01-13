@@ -10,8 +10,8 @@ include layouts/base
         .pro_img
         .pro_info
           .pro_title
-            h2 project name
-            h3 startup name
+            h2 Hire A Dev
+            h3 Shinra Corp.
 
           .pro_stats
             h1 $500
@@ -28,8 +28,8 @@ include layouts/base
 
           .detail_holder
             .pro_title
-              h2 project name
-              h3 startup name
+              h2 Hire A Dev
+              h3 Shinra Corp.
 
             .pro_stats
               h1 $500
@@ -50,8 +50,8 @@ include layouts/base
         .pro_img.second
         .pro_info
           .pro_title
-            h2 project name
-            h3 startup name
+            h2 Kickstarter video
+            h3 Blue Sun
 
           .pro_stats
             h1 $500
@@ -68,8 +68,48 @@ include layouts/base
 
           .detail_holder
             .pro_title
-              h2 project name
-              h3 startup name
+              h2 Kickstarter video
+              h3 Blue Sun
+
+            .pro_stats
+              h1 $500
+              h3 of $10,000
+
+            .detailTxt
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis maximus velit eu pulvinar. Aliquam tincidunt suscipit varius. Suspendisse in luctus tortor, vel rhoncus turpis.
+              form( action="/payus" method="POST")
+                script(
+                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_test_hTRd97ucq2R50KuP3IVnDgz6"
+                data-amount="2000"
+                data-name="KanFund - Project Name"
+                data-description="Funding for project x"
+                data-image="images/logo_squ.jpg")
+
+      .project
+        .pro_img.third
+        .pro_info
+          .pro_title
+            h2 Buy a domain name
+            h3 Trevor Philips Inds.
+
+          .pro_stats
+            h1 $500
+            h3 of $10,000
+
+
+          .pro_scrollDown
+            i(style="color:#fff;" class="fa fa-angle-double-down fa-2x")
+
+        section(id="pro_details" class="details_holders")
+
+          .detailVideo
+            iframe( width="100%" height="315" src="//www.youtube.com/embed/N6UW0JY5PUs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+
+          .detail_holder
+            .pro_title
+              h2 Buy a domain name
+              h3 Trevor Philips Inds.
 
             .pro_stats
               h1 $500
