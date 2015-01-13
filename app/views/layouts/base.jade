@@ -16,6 +16,19 @@ html
   block poly_elements
 
   body(unresolved fullbleed)
+    header
+      .title_holder
+        h1 kan fund
+        h2 #{location}
+        a(href="/login") Login
+        p #{username}
+      .row
+        .small-6.columns
+          p half size
+        .small-6.columns
+          p half size
     block content
 
+  script(src="scripts/foundation.min.js")
   script(src="scripts/app.js")
+

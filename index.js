@@ -80,36 +80,33 @@ passport.use(new LocalStrategy(function(username, password, done) {
   });
 }));
 
-var isAuthenticated = function (req, res, next) {
-  if (req.isAuthenticated())
-    return next();
-  res.redirect('/signin');
-};//
+function ensureAuthenticated(req, res, next) {
+  if (req.isAuthenticated()) { return next(); }
+  console.log('Auth Failed!!!');
+  res.redirect('/login')
+}
 
 //  ======================================================================
 //  GET Requests
 //  ======================================================================
-app.get('/', function(req, res){
-  res.render('index');
-
-
-
-
+app.get('/',ensureAuthenticated, function(req, res){
+  console.log(req.user);
+  res.render('index',{
+    username: 'Pork'
+  });
 });
 
 app.get('/signin',function(req,res){
   res.render('login');
 });
 
-app.get('/login',function(req,res){
-  passport.authenticate('local', {
-    successRedirect: '/',
-    failureRedirect: '/loginFailure'
-  })
-});
-
 app.get('/loginFailure',function(req,res){
   res.redirect('/login');
+});
+
+app.get('/login',function(req,res){
+  console.log('got login req');
+  res.render('login');
 });
 
 
@@ -138,6 +135,13 @@ app.post('/payus', function(req,res){
     }
   });
 });
+
+app.post('/login',
+  passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/login'
+  })
+);
 
 
 

@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
-//@import "../bower_components/foundation/scss/foundation.scss";
-//@import "settings.scss";
+@import "foundation";
+@import "settings";
 
 
 //==================================
@@ -39,7 +39,7 @@ $white: #F6FFEA;
 body {
   background: url(../images/pattern/footer_lodyas.png);
   font-family: "Lato", sans-serif;
-  font-weight: bolder;
+  font-weight: 100;
   color: #333;
 }
 
@@ -58,8 +58,6 @@ h2{
 
 
 header{
-  z-index:9999;
-  position: fixed;
   background: url('../images/pattern/agsquare_@2X.png');
   min-height: 12vh;
   width: 100%;
