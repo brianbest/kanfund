@@ -12,12 +12,16 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose/');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+var cookieParser = require('cookie-parser');
+var session = require('express-session')
 
 
 //  ======================================================================
 //  App Configuration
 //  ======================================================================
-
+app.use(cookieParser());
+app.use(bodyParser());
+app.use(session({ secret: 'keyboard cat' }));
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -45,6 +49,11 @@ var UserDetail = new Schema({
 });
 var UserDetails = mongoose.model('kf_users', UserDetail);
 
+UserDetails.findOne({
+  'username': 'admin'
+},function(err,user){
+  console.log(user);
+});
 
 //  ======================================================================
 //  Passport Info
@@ -60,6 +69,7 @@ passport.deserializeUser(function(user, done) {
 
 passport.use(new LocalStrategy(function(username, password, done) {
   process.nextTick(function() {
+    // Auth Check Logic
     UserDetails.findOne({
       'username': username
     }, function(err, user) {
