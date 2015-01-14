@@ -44,7 +44,7 @@ body {
 }
 
 h1,h2,h3{
-  color: #F6FFEA;
+  color: #fff;
 
 }
 h1{
@@ -184,4 +184,47 @@ header{
 .detailTxt{
   padding-bottom: 2.5rem;
   p{color:$white;}
+}
+
+
+// ============================================
+// Campagin Stuff
+// ============================================
+
+
+.campaign{
+  overflow: auto;
+  background-color: #242424;
+}
+.cmp_photo{
+  width: 100%;
+  height: rem-calc(180px);
+  background-color: #a6a6a6;
+}
+.cmp_discription{
+  margin-left: rem-calc(30px);
+  margin-right:rem-calc(30px);
+
+  h2{
+    margin-top: rem-calc(40px);
+    margin-bottom: rem-calc(25px);
+    font-size: rem-calc(25px);
+  }
+  .cmp_break{
+    width: rem-calc(57px);
+    border-bottom: 3px #e56c69 solid;
+  }
+  p{
+    margin-top: rem-calc(40px);
+    margin-bottom: rem-calc(35px);
+    padding: 0;
+
+    font-size: rem-calc(20px);
+    color: #919191;
+  }
+  .cmp_goal{
+    font-size: rem-calc(30px);
+    margin-bottom: rem-calc(40px);
+    span{font-size: rem-calc(20px);}
+  }
 }

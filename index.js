@@ -13,7 +13,8 @@ var mongoose = require('mongoose/');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var cookieParser = require('cookie-parser');
-var session = require('express-session')
+var session = require('express-session');
+var stripe = require("stripe")("sk_test_Fe7hexNKtkDQEjv9AZ7VT2xC");
 
 
 //  ======================================================================
@@ -48,12 +49,6 @@ var UserDetail = new Schema({
   collection: 'kf_users'
 });
 var UserDetails = mongoose.model('kf_users', UserDetail);
-
-UserDetails.findOne({
-  'username': 'admin'
-},function(err,user){
-  console.log(user);
-});
 
 //  ======================================================================
 //  Passport Info
@@ -97,13 +92,27 @@ function ensureAuthenticated(req, res, next) {
 }
 
 //  ======================================================================
+//  Stripe Stuff
+//  ======================================================================
+
+stripe.customers.list({ limit: 3 }, function(err, customers) {
+  console.log(customers);
+});
+
+
+//  ======================================================================
 //  GET Requests
 //  ======================================================================
-app.get('/',ensureAuthenticated, function(req, res){
-  console.log(req.user);
+app.get('/', function(req, res){
+  var users = ''; // fall back if user is not logged in yet
+  if(req.user){ users = req.user.username}
   res.render('index',{
-    username: 'Pork'
+    username: users
   });
+});
+
+app.get('/campaign',function(req,res){
+  res.render('campaign');
 });
 
 app.get('/signin',function(req,res){
@@ -125,7 +134,7 @@ app.get('/login',function(req,res){
 //  ======================================================================
 
 app.post('/payus', function(req,res){
-  var stripe = require("stripe")("sk_test_Fe7hexNKtkDQEjv9AZ7VT2xC");
+
   console.log(req.body);
 // Get the credit card details submitted by the form
   var stripeToken = req.body.stripeToken;
