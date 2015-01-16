@@ -10,9 +10,11 @@
 // http://www.polymer-project.org/platform/shadow-dom.html#wrappers
 })(wrap(document));
 
-document.addEventListener("scroll", makeDetails());
+//document.addEventListener("scroll", makeDetails());
 
 function makeDetails(){
 
-  document.getElementById('pro_details').style.display = 'block';
+ // document.getElementById('pro_details').style.display = 'block';
 }
+
+

@@ -276,10 +276,26 @@ nav{
     width: 50%;
     display: inline-block;
   }
+  .slider{
+    width: 100%;
+    display: block;
+  }
   .date{
     p{
      margin:0;
     }
+    input{
+      width: 6rem;
+      height: 2.5rem;
+      color: #fff;
+      font-size: 2rem;
+      display: inline-block;
+      background-color: transparent;
+      outline: none;
+      border: 0;
+      border-bottom: 1px solid #1f7f5c;
+    }
+
   }
   button{
     width: 100%;

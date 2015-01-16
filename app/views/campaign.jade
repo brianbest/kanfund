@@ -24,7 +24,47 @@ block content
 
     .cmp_fund
       .date
-        p <small>campaign ends:</small>
-        p 9/9/1999
+        p <small>give:</small> $<input id="FundAmount" type="text" value="1.00">
       .fund
-        button Fund
+        button#customButton Fund
+
+  script(src="bower_components/jquery/dist/jquery.min.js")
+  script.
+    var payAmount = 1;
+    var handler = StripeCheckout.configure({
+      key: 'pk_test_hTRd97ucq2R50KuP3IVnDgz6',
+      image: '../images/logo_squ.jpg',
+      token: function (token) {
+        // Use the token to create the charge with a server-side script.
+        // You can access the token ID with `token.id`
+      }
+    });
+    $('#FundAmount').change(function(){
+      var inputAmount = document.getElementById('FundAmount').value;
+      console.log('happens ' + inputAmount);
+      inputAmount = parseInt(inputAmount);
+      if(!inputAmount || inputAmount == 0){
+        console.log('its false ' + inputAmount);
+        $('#customButton').prop('disabled', true);
+      }else{
+        console.log('its true' + inputAmount);
+        $('#customButton').prop('disabled', false);
+        payAmount = inputAmount;
+      }
+    });
+
+    $('#customButton').on('click', function (e) {
+      // Open Checkout with further options
+      console.log('Shit happend');
+      payAmount = payAmount * 100;
+      handler.open({
+        name: 'KanFund',
+        description: 'Buy a Domain name for Startup name',
+        amount: payAmount
+      });
+      e.preventDefault();
+    });
+    // Close Checkout on page navigation
+    $(window).on('popstate', function () {
+      handler.close();
+    });
