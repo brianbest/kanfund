@@ -18,3 +18,19 @@ function makeDetails(){
 }
 
 
+function regClient(){
+  var user = $('#username').value,
+      pass = $('#password').value,
+      email = $('#email').value,
+      redir = 'https://connect.stripe.com/oauth/authorize?response_type=code&client_id=ca_5WkZBZb2kSLdoMu7Ioc7V5jJLgjTMYH7';
+  $.ajax({
+    type: "POST",
+    url : '/regNewClient',
+    data: {regusername : user, regpassword : pass, regemails : email}
+  });
+
+
+  //.done(function (mes){
+  //redir = redir + 'redirect_uri=http://localhost:3000/created/' + msg;
+//});
+}

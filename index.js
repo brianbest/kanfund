@@ -43,8 +43,9 @@ mongoose.connect('mongodb://brianbest:thisisatest1@dogen.mongohq.com:10032/rally
 
 var Schema = mongoose.Schema;
 var UserDetail = new Schema({
-  username: String,
-  password: String
+  username  : String,
+  password  : String,
+  email     : String
 }, {
   collection: 'kf_users'
 });
@@ -111,6 +112,14 @@ app.get('/', function(req, res){
   });
 });
 
+app.get('/register', function(req,res) {
+  res.render('registration');
+});
+
+app.get('/profile', function(req,res) {
+  res.render('profile');
+});
+
 app.get('/campaign',function(req,res){
   res.render('campaign');
 });
@@ -152,6 +161,27 @@ app.post('/payus', function(req,res){
     }else{
       res.sendFile(__dirname + '/app/thankyou.html');
     }
+  });
+});
+
+
+app.post('/regNewClient', function(req,res){
+  console.log('got something');
+  console.log(req.body);
+  var user = req.body.username,
+    pass = req.body.password,
+    emails = req.body.email;
+
+  var newClient = new UserDetails({
+    username : user,
+    password : pass,
+    email    : emails
+  });
+
+  newClient.save(function(err){
+    console.log('we good');
+    res.redirect('/profile');
+    //res.redirect('https://connect.stripe.com/oauth/authorize?response_type=code&client_id=ca_5WkZBZb2kSLdoMu7Ioc7V5jJLgjTMYH7');
   });
 });
 
