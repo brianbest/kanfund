@@ -45,7 +45,8 @@ var Schema = mongoose.Schema;
 var UserDetail = new Schema({
   username  : String,
   password  : String,
-  email     : String
+  email     : String,
+  stripeID  : String
 }, {
   collection: 'kf_users'
 });
@@ -116,8 +117,20 @@ app.get('/register', function(req,res) {
   res.render('registration');
 });
 
-app.get('/profile', function(req,res) {
-  res.render('profile');
+app.get('/profile',ensureAuthenticated, function(req,res) {
+
+  var hasStripe = false;
+
+  if (typeof req.user.stripeID !== 'undefined') {
+    // the variable is defined
+    hasStripe = true;
+  }
+
+  res.render('profile',{
+    user : req.user.username,
+    email : req.user.email,
+    stripe : hasStripe
+  });
 });
 
 app.get('/campaign',function(req,res){
